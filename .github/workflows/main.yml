@@ -13,8 +13,6 @@ jobs:
       id-token: write
 
     steps:
-      - uses: actions/checkout@v2 # checkout your repo - this is an official action provided by GitHub
-
       - name: Checkout
         uses: actions/checkout@v2 # checkout your repo - this is an official action provided by GitHub
 
