@@ -16,7 +16,7 @@ hero:
         link: /api-examples
 
 features:
-  - title: Vorlesungeb
+  - title: Vorlesungen
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Übungen
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
