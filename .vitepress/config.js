@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/05.2-CC-git",
   title: "Welcome to our Web Application ",
   description: "Training Page for Cloud Computing Course",
   themeConfig: {
