@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Simple VitePress Fattal Error",
-  description: "000000",
+  title: "Welcome to our Web Application ",
+  description: "Hello world",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Infos', link: '/markdown-examples' }
     ],
 
     sidebar: [
