@@ -7,6 +7,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest # run ubuntu
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 
     steps:
       - uses: actions/checkout@v2 # checkout your repo - this is an official action provided by GitHub
@@ -24,7 +28,7 @@ jobs:
 
       - name: Build project files
         run: npm run docs:build
-      
+
       - name: Setup GH Pages
         uses: actions/configure-pages@v3
 
