@@ -3,7 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [release] # is triggered if push event in release branch occurs
-
 jobs:
   build:
     runs-on: ubuntu-latest # run ubuntu
@@ -25,13 +24,13 @@ jobs:
         run: npm i
 
       - name: Build project files
-        run: npm run docs:build
+        run: npm run docs:build # creates a /dist directory with build files
 
       - name: Setup GH Pages
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist # path to build files directory
 
