@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Welcome to our Web Application 123123123",
-  description: "Hello world 123",
+  title: "Welcome to our Web Application ",
+  description: "Training Page for Cloud Computing Course",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
