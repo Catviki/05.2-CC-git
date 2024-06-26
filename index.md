@@ -3,22 +3,23 @@
 layout: home
 
 hero:
-  name: "Cloud Computing"
-  text: "Training Page for Cloud Computing Course"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  - icon: 🛠️
+    name: "Cloud Computing"
+    text: "Training Page for Cloud Computing Course"
+    tagline: My great project tagline
+    actions:
+      - theme: brand
+        text: Markdown Examples
+        link: /markdown-examples
+      - theme: alt
+        text: API Examples
+        link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Vorlesungen
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Übungen
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Aufgaben
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
