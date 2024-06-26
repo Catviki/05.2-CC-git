@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Simple VitePress Site",
+  title: "Welcome to our Web Application ",
   description: "Training Page for Cloud Computing Course",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
