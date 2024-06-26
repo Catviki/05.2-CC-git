@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/05.2-CC-git/",
   title: "Welcome to our Web Application 123123123",
   description: "Hello world 123",
   themeConfig: {
