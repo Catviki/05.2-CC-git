@@ -21,4 +21,6 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Aufgaben
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Downloads
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
